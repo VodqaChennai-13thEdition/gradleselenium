@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testGoogle" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-04-18T02:06:45" hostname="IN-CH-Vijayaragavans.local" time="6.02">
+<testsuite name="testGoogle" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-04-19T12:00:55" hostname="IN-CH-Vijayaragavans.local" time="13.699">
   <properties/>
-  <testcase name="test" classname="testGoogle" time="6.02"/>
+  <testcase name="test" classname="testGoogle" time="13.699"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[Apr 19, 2017 5:30:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
 </testsuite>
