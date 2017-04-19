@@ -13,16 +13,16 @@ public class testGoogle {
     public void test() {
 
          //Firefox 47 and above
-//        System.setProperty("webdriver.gecko.driver", "/Users/Vijayaragavan/Downloads/Vodqa-Softwares/geckodriver");
-        System.setProperty("webdriver.firefox.marionette", "/Users/Vijayaragavan/Downloads/Vodqa-Softwares/geckodriver");
+        System.setProperty("webdriver.gecko.driver", "/Users/antosukesh/Downloads/geckodriver");
+        //System.setProperty("webdriver.firefox.marionette", "/Users/antosukesh/Downloads/geckodriver");
         DesiredCapabilities capabilities=DesiredCapabilities.firefox();
         capabilities.setCapability("marionette", true);
         WebDriver driver = new FirefoxDriver(capabilities);
 
         driver.get("http://www.google.com");
 
-        driver.close();
-        driver.quit();
+        //driver.close();
+        //driver.quit();
     }
 
 }
