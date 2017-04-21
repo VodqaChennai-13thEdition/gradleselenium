@@ -19,6 +19,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="clientSideMonitoring_main" target="1.5" />
+      <module name="clientSideMonitoring_test" target="1.5" />
       <module name="gradleselenium_main" target="1.5" />
       <module name="gradleselenium_test" target="1.5" />
     </bytecodeTargetLevel>

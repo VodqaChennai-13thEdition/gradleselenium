@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testGoogle" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-04-19T12:08:36" hostname="Antos-MacBook-Pro.local" time="4.084">
+<testsuite name="testGoogle" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-04-21T06:15:09" hostname="IN-CH-Vijayaragavans.local" time="13.981">
   <properties/>
-  <testcase name="test" classname="testGoogle" time="4.084"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[1492603716527	geckodriver	INFO	Listening on 127.0.0.1:16689
-1492603716698	mozprofile::profile	INFO	Using profile path /var/folders/4z/zbd7m6h92jz92xj19wz05m200000gn/T/rust_mozprofile.9gyBZWsxU2GZ
-1492603716698	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args []
-1492603716700	geckodriver::marionette	INFO	Connecting to Marionette on localhost:61528
-1492603717315	Marionette	INFO	Listening on port 61528
-Apr 19, 2017 5:38:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-2017-04-19 17:38:38.851 plugin-container[61329:1315641] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8e43, name = 'com.apple.tsm.portname'
-See /usr/include/servers/bootstrap_defs.h for the error codes.
-2017-04-19 17:38:38.851 plugin-container[61329:1315641] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9527, name = 'com.apple.CFPasteboardClient'
-See /usr/include/servers/bootstrap_defs.h for the error codes.
-2017-04-19 17:38:38.851 plugin-container[61329:1315641] Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+  <testcase name="test" classname="testGoogle" time="13.981"/>
+  <system-out><![CDATA[*****Time taken:*************11108
+]]></system-out>
+  <system-err><![CDATA[Apr 21, 2017 11:45:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
 ]]></system-err>
 </testsuite>
